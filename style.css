@@ -1,0 +1,59 @@
+.bg-green {
+    background-color: #11E95B;
+}
+
+.bg-orange {
+    background-color: #F35E3D;
+}
+
+.custom-card {
+    width: calc(25% - 20px);
+    margin: 10px;
+  }
+  @media screen and (max-width: 1200px) {
+    .custom-card {
+      width: calc(33.33% - 20px);
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .custom-card {
+      width: calc(50% - 20px);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .custom-card {
+      width: 100%;
+    }
+  }
+
+  .bg-detail {
+    background-color: #ddd;
+  }
+
+  .description {
+    font-weight: 500;
+  }
+
+  input {
+    outline: none;
+  }
+
+  .custom-carousel {
+    width: 75%;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .custom-carousel {
+      width: 100%
+    }
+  }
+
+  .detail {
+    width: 25%;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .detail {
+      width: 100%
+    }
+  }
